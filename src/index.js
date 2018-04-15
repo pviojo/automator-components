@@ -5,15 +5,18 @@ import Block from "./components/Block";
 const App = () => {
   const blocks = [
     {
+      id: "1",
       type: "variable",
       name: "bucket_ids",
       value: [590, 591, 592]
     },
     {
+      id: "2",
       type: "variable",
-      value: "20180416-cyber-co"
+      value: "20180416-campaign-1"
     },
     {
+      id: "3",
       type: "function",
       fn: "get_buckets",
       input: [
@@ -30,6 +33,7 @@ const App = () => {
       ]
     },
     {
+      id: "4",
       type: "function",
       fn: "extract_deal_ids",
       input: [
