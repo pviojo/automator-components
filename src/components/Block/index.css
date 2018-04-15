@@ -1,0 +1,91 @@
+.block {
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  max-width: 210px;
+  text-align: center;
+  position: relative;
+  margin: 0px 45px 20px;
+  background: #c0fad0;
+}
+
+.block.block-function {
+  background: #fc0;
+  border-color: #ea0;
+}
+.block.block-variable {
+  background: #eee;
+  border-color: #ccc;
+}
+
+.block .label {
+  font-size: 14px;
+}
+
+.block .connector {
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 60px;
+  height: 20px;
+  font-size: 9px;
+  line-height: 20px;
+  margin: 5px 0;
+}
+
+.block .input .connector {
+  border-radius: 3px 100px 100px 3px;
+}
+
+.block .output .connector {
+  border-radius: 100px 3px 3px 100px;
+}
+
+.block .output {
+  position: absolute;
+  right: -45px;
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.block .input {
+  position: absolute;
+  vertical-align: middle;
+  left: -45px;
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+}
+.variable-name {
+  border-bottom: 1px solid #ccc;
+  margin: -10px -10px 10px;
+  padding: 10px;
+}
+
+.variable-value {
+  text-align: left;
+}
+
+.block .json-pretty {
+  margin: -10px;
+  padding: 10px;
+}
+.json-pretty {
+  line-height: 1.4;
+  color: #999;
+}
+.json-pretty .json-key {
+  color: #c30;
+}
+.json-pretty .json-value {
+  color: #f90;
+}
+.json-pretty .json-string {
+  color: #f90;
+}
+.json-pretty .json-boolean {
+  color: #f90;
+}
